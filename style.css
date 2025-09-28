@@ -382,7 +382,8 @@ a {
 
 .bottom-container {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   /* Make it fill the parent */
   margin: 0 auto;
   display: flex;
